@@ -1,0 +1,19 @@
+# Build
+target/
+Cargo.lock
+
+# Environment
+*.env*
+!.env*.example
+
+# OS
+.DS_Store
+
+# Security
+*.pem
+
+# Development
+**/*.rs.bk
+.node-data
+deployments/**/dev.json
+deployments/**/dev.ts

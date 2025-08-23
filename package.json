@@ -1,0 +1,48 @@
+{
+  "name": "hotpotato",
+  "description": "Full-Stack DApp Boilerplate for ink! Smart Contracts",
+  "homepage": "https://inkathon.xyz",
+  "author": "Scio Labs <hello@scio.xyz> (https://scio.xyz)",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "frontend",
+    "contracts"
+  ],
+  "engines": {
+    "node": ">=20 <=24"
+  },
+  "engineStrict": true,
+  "packageManager": "bun@1.2.20",
+  "scripts": {
+    "dev": "bun run -F frontend dev",
+    "node": "bun run -F contracts node",
+    "dev-and-node": "concurrently \"bun run dev\" \"bun run node\" --names \"next,node\" --kill-others",
+    "codegen": "bun run -F contracts codegen",
+    "build": "bun run codegen && bun run -F frontend build",
+    "build:standalone": "bun run codegen && bun run -F frontend build:standalone",
+    "start": "bun run -F frontend start",
+    "typecheck": "bun run -F '*' typecheck",
+    "clean": "bun run -F '*' clean",
+    "clean-install": "find . -type d -name 'node_modules' -prune -exec rm -rf '{}' + && find . -name 'bun.lock' -delete && bun install",
+    "lint": "bun run -F '*' lint",
+    "lint:fix": "bun run -F '*' lint:fix",
+    "update": "bunx taze minor --interactive --recursive --write --install --includeLocked --exclude '@types/node'"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.2.0",
+    "concurrently": "^9.2.0",
+    "nano-staged": "^0.8.0",
+    "prettier": "^3.6.2",
+    "simple-git-hooks": "^2.13.1",
+    "taze": "^19.1.0",
+    "typescript": "^5.9.2"
+  },
+  "trustedDependencies": [
+    "@tailwindcss/oxide",
+    "contracts",
+    "esbuild",
+    "sharp",
+    "simple-git-hooks"
+  ]
+}

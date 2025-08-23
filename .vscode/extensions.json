@@ -1,0 +1,11 @@
+{
+  "recommendations": [
+    "biomejs.biome",
+    "esbenp.prettier-vscode",
+    "tamasfe.even-better-toml",
+    "rust-lang.rust-analyzer",
+    "ink-analyzer.ink-analyzer",
+    "dotenv.dotenv-vscode",
+    "bradlc.vscode-tailwindcss"
+  ]
+}
