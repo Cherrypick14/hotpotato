@@ -22,6 +22,7 @@
     }
   },
   "ink": {
-    "flipper": ".papi/contracts/flipper.json"
+    "flipper": ".papi/contracts/flipper.json",
+    "hotpotato": ".papi/contracts/hotpotato.json"
   }
 }
