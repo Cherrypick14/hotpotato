@@ -1,0 +1,767 @@
+{
+  "source": {
+    "hash": "0xaec5f67d5cd2c5596e82ee8333a785774ec34f4519b7834367aea1e01ccfd538",
+    "language": "ink! 6.0.0-alpha",
+    "compiler": "rustc 1.89.0",
+    "contract_binary": "0x50564d00000d12000000000000010628c00040a00002286a00000080000000740000007a0000006e00000086000000880000007e0000008a00000070000000046f07000000000c0000001a000000200000002b0000003600000041000000626c6f636b5f6e756d62657263616c6c5f646174615f636f707963616c6c65726765745f73746f726167657365616c5f72657475726e7365745f73746f7261676576616c75655f7472616e7366657272656405110287630463616c6c8d98066465706c6f790691464a028ed3d101b402cd0234033903520360036f039703d103d603f203ff030e045404590472048b04a3041a0555058505b405b505b605b705b805e1050f06190624062f063a0691069606aa06af06fd06300757077807920743083f095809a809d809770a170c900ca00cd00cf10cfe0c000d090d120d1d0d260d310d3c0d450d470d540d620d6c0d760d820d8d0d970da70deb0d3b0ecb0e9511c87b10307b15287b16206472531910bb008d2c84c407c842056487642aae52107c7b95770178ab95aa01ac5af6c8480cc949068469f884cb07c8950a510b19017b197b16087b1c1033054911189ab608951918846701d4b90351070e8217107c77783733050101846702510714821710c857077f77c8530979979555020184670497b603510711821710c857078177c853037a37018219188d67847038c9b808958308642701c8470c95cb08c84308d06905aeab198289953308cf0908d458087bc895770828e1642a28693306821b1084b70449111851070c81877a17183306040184b702510717c84607c837077f77951818d4680879879566020184b701510714c86404c843037c37951818d46808788701821718cf0707d457077bc78216088219c89b088469072809c89b0884690701c8a909ae9a107c8795880178a795aa01ac9af66427821030821528821620951138320064c764cbaea5d282789577087b58955508aea5c528f395b90cae9b0b78b895bb01ac9bfb32005109187c7a7c8b9599ff958801957701aabaf0c9ba073200330732009511f07b1008648a78170795180733090164a73300940028640c9511a87b10507b15487b16406416330500000333070000033300020a060149112049112849113049113880571480521880591c805a04805308805c0c805810380b00000397992097772097cc2097aa20d42909951220d48707d43c08d4ba0a7b1a7b18087b17107b1918330704017c68017c69027c6a037c6b97880897991097aa18d4b8087c6b047c6c05d4a9097c6a067c650797cc08d4cb0b97aa10975518d45a0a956608d49808d4ba0a97aa20d4a8087b289522089577ff5207b4951920330705330805019588ff51080f829a959908510af53307040182105082154882164095115832009511c87b10307b152864784801951504330921645750100451fd64573300069511d07b102864789517053309213300502836fd009511e87b10107b15087b1664757c774a51071d33070000030a81578158043909000003be8707e49707c9970701821010821508821695111832009511987b10607b15587b165064757c774a7b1851078c00330600000333070000033300080a0233020a28550b50120a520b7b17307b18387a1b40951744330833000c330a10647b281efe95183033092095171050100ea5fc95570846110f0195180f501010fe0151073864670a0181578158043906000003be8707ac67244615080195570933092082185010126efc7a568210608215588216509511683200009511a07b10587b15507b164864757c774a51076f330600000333070000033300140a0233021628b80a501216b50a7b17287b18309516087a1b3895173c3308330018330a10647b287efd951828330920646750101a06fc9557294611070195180750101c5f0151071a46150846152946154a8210588215508216489511603200009511c07b10387b15307b162864757c774a7b185207753306000003330700000333001e0a0233022028350a501220320a7b17087b18107a1b1895171c3308330022330a10647b28fefc64670a39060000034615080195570933092082185010247afb7a564615290146154a0195572a95180833092050102662fb8210388215308216289511403200009511e87b10107b15087b1664757c774a51073433070000030a0181578158043909000003be8707ae971a7c570884770151072146150846152946154a330701280533070182101082150882169511183200009511e87b10107b15087b1664866475648750102850098479013307025209398488ff00330901aa980a52082c33072827826908330820ac891f82689599e09587207b677b690895570133092050102ab0fa330701017857821010821508821695111832007c7a7c89510a255109279511f87b1095770195880133092050102cfdfb83778877018210951108320085970132003307320033002e9511f87b101f03000003330800000333090233070a040000000000009511c07b10387b15307b1628647633070000037b1710491118004049112095181033075010387008821718821520ac577f821910c957089567087b19c859097b19107b18184911209568297b180895181050103a0701816795181050103c380881670495181050103e2d087c674a9518105010406ffb951810821708501042dc00821818821720ac7826821a10975920989920977720987b20330782180a05821038821530821628951140320000838852080a330a330901280e330a013b0a010003330902019511f87b1033080000033b0a0000030a0400501046bb07821910835501ac590400330800000333070a040050104aeffa821910835501ac590400330800000333070a04009511d87b10207b15187c783309000003330500407b197b150851080f1f030000030101330902281e9577011e0300000349111001641850104c18821910835501ac590400330800000333070a04009511e87b10107b15087b167c796485510925957601330801645750104ed00633092064576468821010821508821695111828d20664573308821010821508821695111828a7064611049517043300322863ff951110fe7b10e8017b15e0017b16d80150105240fa8477ff005217056b0233093307000003330800403300540a01013808000003330b09978930978c28988718848aff0098993898c8383305000003aaba3c0195ab24ff510b9000330b1faaba480195abb8510bd50095ab9c510b040195ab8d510be30095ab41ff510b3395ab39ff510b9d0095ab28ff510b79330b0dabbaf501959953ff5209ed0195888d5208e60152171de2014921c8002820959920ff5209d301958866ff5208cb0195771fff5207c3014921c800010134060400039558059517b00133091f501056c2f78217c80028dc009599b852099b01958828ff5208930195779552078c0133070828c00095992cff52097e019588be520877019577c25207700133070528a400959993520963019588d852085c019577a6520755013307032889009599c852094801958833ff52084001957774ff52073801330709286c959901ff52092b0152180a2701957752ff52071e0133070228529599c3520912019588d952080b0195773dff52070301330706283795999b5209f7009588dc5208f000957772ff5207e800330707281c9599905209dc009588bb5208d500957727ff5207cd00330704017b17c8007817d3007816d4009517d5009518b00133091f501058c6f67b15b0014921b80100404921c0019518b001330750105af9048217b8018215c001ac5787008218b001c957069759207a16b001c88505989920951bb0013307645a0a03018018b001ac866083775117035b5207577b1540017b1848019517b0019518400150105c61fb7c15b0015115023b7c17b1017b17c0007c17b2017b17b0007c17b3017b17b8009518b4019517930133091d50105e2df6821748015317040b8479fc52190411003308013307013300302876fc821940017c927c93017c94027d90037c9c047c9b057c96067c98077b18a0009578f8959a087b1a40017b1848017b16a800520807330a28147c9a089577f79599097b1940017b174801015108a995a7ff8e7795770193a7330602aa67997b1b687b10707b14787b1380007b1c88007b1290007b1798009517b0019518400150106092fa7c17b001aa676cff7b177c18c9017c13ca017c14cb017c10cc017c17cd017c19ce017c1acf017c1bd0017c1cc1017b1c407c16c2017c12c3017c1cc40197330897441097001897990897aa1097bb18d483087b1860d440087b1858d497077b1750d4ba0a7b1a487c19c5017c1ac6017c13c7017c17c801976808972b1097cc1897aa08821640d486067b1640d4cb0b7b1b38d4a9097b19307c19ba017c1abb017c16bc01973810977718d487077b17287c17b90197990897aa10976618d497077b1720d46a0a7b1a187c19be017c16bd017c18bf017c17c001979908d469097b1910978810977718d487077b17087c1ab2017c19b1017c18b3017c17b40197aa08d49a04978810977718d487027c19b6017c1ab5017c18b7017c17b801979908d4a903978810977718d47808821760821b58d47b0b821750821a48d47a0a821740821938d47909821730821028d47007821620821c18d46c00821c10821608d4c606d44202d4380897aa20d4ba0a977720d49707976620d40609978820d428087b1850017b1958017b1760017b1a6801951776019518930133091d501062eef3821748015207ccfd8217688a77088218a8008a82108218a0008a89188213b00097330882148000974408821c7897cc108216709766188218b800978810821a8800d4a707d42909821ac000d4a30a821b9000d4b40bd46c0cd497077b17b800d48a06d4cb0b7b1bc0009517b0019518760133091d50106475f395171e019518500133092050106665f3976628975520d465058216b8009855208217c0007a17f4007a16f8007a15fc00951700019518b00133091d50106835f38217c8009777023308000001c887078177821878181d018218980078183e0132079517f4009518d40050106c30f728649517fc0050107096f59517f400501072c1f58377330034330244288b019517f40050107691f764759517f4005010788df86457330036330248286c019517f40050107c68f6281d8217c0003300343302442854019517f4009518d40050208200acf59517f4005020840053f83308330733003028f4f88487013300363302482826016467330034330244281b0195171d0150208c0009f5009511a07b10587b155050208e0012f48477ff0052170543330500000333070000033308004033090a0101390700000352479bae9d5e2839070400034811047a170846110c46112d46114e95170450209000d4f728aff700330801330701330030286ff8827a08827910aea912827ac89a0a95990178a87b79103200009511e87b10107b15087b166475827710c89706ac7624825a08ac6a1e825ac8a70750209200cbf17b561082101082150882169511183200009511f07b1008648a7a170495180433090464a73300940028b1827908510918827a7ca8959bff95aa017b7a7b7b08889701289df68897012897f680670480680880690c380a000003816b10977720979920d4a707d4980832029511d87b10207b1518330500403309011e0300000333080000037b187b15087b1910641832028210089511103200495228a994922449949424492a93a4944992d294a449929294aa24299924256592943449292999949292a44a292929299524a992921449924248932449928424499294249394244992244992a424492625992425a9a450929264924ac212924c4a49528a10521292a4a424098984740949248592a4495212424a4292a4a42485444292244993a49410521292a4a4344452282249489226a9245c429224496a529aa42a24892495a4a424214b4a95a424a19452258590fa93a490901492242949928412929084242449925449d2524ac814424392a18624434d528892404a8822c9509354490aa9a4a4929224898808110a9186248924444422914844222289884488222222c290488824221249442291241289241111912242444a2422522211911289888c88888408220a11114924518d1489880811111111110911894912254992482222952462524a924444448488222222222211912449922449444492244992884892489224111149922422224912119124499224499224499224499288888884882412894492241249249244121109110949221111110991908a8822421122942442114a12a14812114450499294248249828810a28640489224c8244952529aa492242548529a94a428a9a4244992902429492484924a0200",
+    "build_info": {
+      "build_mode": "Release",
+      "cargo_contract_version": "6.0.0-alpha",
+      "rust_toolchain": "stable-x86_64-unknown-linux-gnu"
+    }
+  },
+  "contract": {
+    "name": "hotpotato",
+    "version": "6.0.0-alpha",
+    "authors": [
+      "Use Ink <ink@use.ink>"
+    ]
+  },
+  "image": null,
+  "spec": {
+    "constructors": [
+      {
+        "args": [
+          {
+            "label": "deadline_blocks",
+            "type": {
+              "displayName": [
+                "u32"
+              ],
+              "type": 3
+            }
+          }
+        ],
+        "default": false,
+        "docs": [
+          "Constructor - Initialize the hot potato game"
+        ],
+        "label": "new",
+        "payable": false,
+        "returnType": {
+          "displayName": [
+            "ink_primitives",
+            "ConstructorResult"
+          ],
+          "type": 7
+        },
+        "selector": "0x9bae9d5e"
+      }
+    ],
+    "docs": [],
+    "environment": {
+      "accountId": {
+        "displayName": [
+          "AccountId"
+        ],
+        "type": 0
+      },
+      "balance": {
+        "displayName": [
+          "Balance"
+        ],
+        "type": 13
+      },
+      "blockNumber": {
+        "displayName": [
+          "BlockNumber"
+        ],
+        "type": 3
+      },
+      "chainExtension": {
+        "displayName": [
+          "ChainExtension"
+        ],
+        "type": 16
+      },
+      "hash": {
+        "displayName": [
+          "Hash"
+        ],
+        "type": 14
+      },
+      "maxEventTopics": 4,
+      "staticBufferSize": 16384,
+      "timestamp": {
+        "displayName": [
+          "Timestamp"
+        ],
+        "type": 15
+      }
+    },
+    "events": [],
+    "lang_error": {
+      "displayName": [
+        "ink",
+        "LangError"
+      ],
+      "type": 9
+    },
+    "messages": [
+      {
+        "args": [
+          {
+            "label": "to",
+            "type": {
+              "displayName": [
+                "AccountId"
+              ],
+              "type": 0
+            }
+          }
+        ],
+        "default": false,
+        "docs": [
+          " 🚀 Start a new hot potato game"
+        ],
+        "label": "start_game",
+        "mutates": true,
+        "payable": false,
+        "returnType": {
+          "displayName": [
+            "ink",
+            "MessageResult"
+          ],
+          "type": 7
+        },
+        "selector": "0x0dad731d"
+      },
+      {
+        "args": [
+          {
+            "label": "to",
+            "type": {
+              "displayName": [
+                "AccountId"
+              ],
+              "type": 0
+            }
+          }
+        ],
+        "default": false,
+        "docs": [
+          " 🔄 Pass the potato to another account"
+        ],
+        "label": "pass_potato",
+        "mutates": true,
+        "payable": false,
+        "returnType": {
+          "displayName": [
+            "ink",
+            "MessageResult"
+          ],
+          "type": 7
+        },
+        "selector": "0xbfe09ae1"
+      },
+      {
+        "args": [],
+        "default": false,
+        "docs": [
+          " 💥 Check deadline and burn potato if expired"
+        ],
+        "label": "check_deadline",
+        "mutates": true,
+        "payable": false,
+        "returnType": {
+          "displayName": [
+            "ink",
+            "MessageResult"
+          ],
+          "type": 10
+        },
+        "selector": "0x73ff0aae"
+      },
+      {
+        "args": [],
+        "default": false,
+        "docs": [
+          " 🏆 End game manually (only by starter)"
+        ],
+        "label": "end_game",
+        "mutates": true,
+        "payable": false,
+        "returnType": {
+          "displayName": [
+            "ink",
+            "MessageResult"
+          ],
+          "type": 7
+        },
+        "selector": "0xc76d285a"
+      },
+      {
+        "args": [],
+        "default": false,
+        "docs": [
+          " 📖 Query functions (no events needed for reads)"
+        ],
+        "label": "get_holder",
+        "mutates": false,
+        "payable": false,
+        "returnType": {
+          "displayName": [
+            "ink",
+            "MessageResult"
+          ],
+          "type": 11
+        },
+        "selector": "0x1f7045d9"
+      },
+      {
+        "args": [],
+        "default": false,
+        "docs": [],
+        "label": "is_active",
+        "mutates": false,
+        "payable": false,
+        "returnType": {
+          "displayName": [
+            "ink",
+            "MessageResult"
+          ],
+          "type": 10
+        },
+        "selector": "0xd8d4423e"
+      },
+      {
+        "args": [],
+        "default": false,
+        "docs": [],
+        "label": "get_deadline_blocks",
+        "mutates": false,
+        "payable": false,
+        "returnType": {
+          "displayName": [
+            "ink",
+            "MessageResult"
+          ],
+          "type": 12
+        },
+        "selector": "0x643d27c3"
+      },
+      {
+        "args": [],
+        "default": false,
+        "docs": [],
+        "label": "get_last_passed_block",
+        "mutates": false,
+        "payable": false,
+        "returnType": {
+          "displayName": [
+            "ink",
+            "MessageResult"
+          ],
+          "type": 12
+        },
+        "selector": "0x0965248e"
+      },
+      {
+        "args": [],
+        "default": false,
+        "docs": [],
+        "label": "get_game_starter",
+        "mutates": false,
+        "payable": false,
+        "returnType": {
+          "displayName": [
+            "ink",
+            "MessageResult"
+          ],
+          "type": 11
+        },
+        "selector": "0xdc48d86b"
+      },
+      {
+        "args": [],
+        "default": false,
+        "docs": [],
+        "label": "get_remaining_blocks",
+        "mutates": false,
+        "payable": false,
+        "returnType": {
+          "displayName": [
+            "ink",
+            "MessageResult"
+          ],
+          "type": 12
+        },
+        "selector": "0x4838cd8c"
+      }
+    ]
+  },
+  "storage": {
+    "root": {
+      "layout": {
+        "struct": {
+          "fields": [
+            {
+              "layout": {
+                "enum": {
+                  "dispatchKey": "0x00000000",
+                  "name": "Option",
+                  "variants": {
+                    "0": {
+                      "fields": [],
+                      "name": "None"
+                    },
+                    "1": {
+                      "fields": [
+                        {
+                          "layout": {
+                            "leaf": {
+                              "key": "0x00000000",
+                              "ty": 0
+                            }
+                          },
+                          "name": "0"
+                        }
+                      ],
+                      "name": "Some"
+                    }
+                  }
+                }
+              },
+              "name": "current_holder"
+            },
+            {
+              "layout": {
+                "leaf": {
+                  "key": "0x00000000",
+                  "ty": 3
+                }
+              },
+              "name": "last_passed_block"
+            },
+            {
+              "layout": {
+                "leaf": {
+                  "key": "0x00000000",
+                  "ty": 3
+                }
+              },
+              "name": "deadline_blocks"
+            },
+            {
+              "layout": {
+                "leaf": {
+                  "key": "0x00000000",
+                  "ty": 4
+                }
+              },
+              "name": "active"
+            },
+            {
+              "layout": {
+                "enum": {
+                  "dispatchKey": "0x00000000",
+                  "name": "Option",
+                  "variants": {
+                    "0": {
+                      "fields": [],
+                      "name": "None"
+                    },
+                    "1": {
+                      "fields": [
+                        {
+                          "layout": {
+                            "leaf": {
+                              "key": "0x00000000",
+                              "ty": 0
+                            }
+                          },
+                          "name": "0"
+                        }
+                      ],
+                      "name": "Some"
+                    }
+                  }
+                }
+              },
+              "name": "game_starter"
+            }
+          ],
+          "name": "Hotpotato"
+        }
+      },
+      "root_key": "0x00000000",
+      "ty": 5
+    }
+  },
+  "types": [
+    {
+      "id": 0,
+      "type": {
+        "def": {
+          "composite": {
+            "fields": [
+              {
+                "type": 1,
+                "typeName": "[u8; 32]"
+              }
+            ]
+          }
+        },
+        "path": [
+          "ink_primitives",
+          "types",
+          "AccountId"
+        ]
+      }
+    },
+    {
+      "id": 1,
+      "type": {
+        "def": {
+          "array": {
+            "len": 32,
+            "type": 2
+          }
+        }
+      }
+    },
+    {
+      "id": 2,
+      "type": {
+        "def": {
+          "primitive": "u8"
+        }
+      }
+    },
+    {
+      "id": 3,
+      "type": {
+        "def": {
+          "primitive": "u32"
+        }
+      }
+    },
+    {
+      "id": 4,
+      "type": {
+        "def": {
+          "primitive": "bool"
+        }
+      }
+    },
+    {
+      "id": 5,
+      "type": {
+        "def": {
+          "composite": {
+            "fields": [
+              {
+                "name": "current_holder",
+                "type": 6,
+                "typeName": "<Option<AccountId> as::ink::storage::traits::AutoStorableHint<::\nink::storage::traits::ManualKey<102435118u32, ()>,>>::Type"
+              },
+              {
+                "name": "last_passed_block",
+                "type": 3,
+                "typeName": "<u32 as::ink::storage::traits::AutoStorableHint<::ink::storage\n::traits::ManualKey<1930356327u32, ()>,>>::Type"
+              },
+              {
+                "name": "deadline_blocks",
+                "type": 3,
+                "typeName": "<u32 as::ink::storage::traits::AutoStorableHint<::ink::storage\n::traits::ManualKey<747691143u32, ()>,>>::Type"
+              },
+              {
+                "name": "active",
+                "type": 4,
+                "typeName": "<bool as::ink::storage::traits::AutoStorableHint<::ink::storage\n::traits::ManualKey<1868134596u32, ()>,>>::Type"
+              },
+              {
+                "name": "game_starter",
+                "type": 6,
+                "typeName": "<Option<AccountId> as::ink::storage::traits::AutoStorableHint<::\nink::storage::traits::ManualKey<2953096800u32, ()>,>>::Type"
+              }
+            ]
+          }
+        },
+        "path": [
+          "hotpotato",
+          "hotpotato",
+          "Hotpotato"
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "type": {
+        "def": {
+          "variant": {
+            "variants": [
+              {
+                "index": 0,
+                "name": "None"
+              },
+              {
+                "fields": [
+                  {
+                    "type": 0
+                  }
+                ],
+                "index": 1,
+                "name": "Some"
+              }
+            ]
+          }
+        },
+        "params": [
+          {
+            "name": "T",
+            "type": 0
+          }
+        ],
+        "path": [
+          "Option"
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "type": {
+        "def": {
+          "variant": {
+            "variants": [
+              {
+                "fields": [
+                  {
+                    "type": 8
+                  }
+                ],
+                "index": 0,
+                "name": "Ok"
+              },
+              {
+                "fields": [
+                  {
+                    "type": 9
+                  }
+                ],
+                "index": 1,
+                "name": "Err"
+              }
+            ]
+          }
+        },
+        "params": [
+          {
+            "name": "T",
+            "type": 8
+          },
+          {
+            "name": "E",
+            "type": 9
+          }
+        ],
+        "path": [
+          "Result"
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "type": {
+        "def": {
+          "tuple": []
+        }
+      }
+    },
+    {
+      "id": 9,
+      "type": {
+        "def": {
+          "variant": {
+            "variants": [
+              {
+                "index": 1,
+                "name": "CouldNotReadInput"
+              }
+            ]
+          }
+        },
+        "path": [
+          "ink_primitives",
+          "LangError"
+        ]
+      }
+    },
+    {
+      "id": 10,
+      "type": {
+        "def": {
+          "variant": {
+            "variants": [
+              {
+                "fields": [
+                  {
+                    "type": 4
+                  }
+                ],
+                "index": 0,
+                "name": "Ok"
+              },
+              {
+                "fields": [
+                  {
+                    "type": 9
+                  }
+                ],
+                "index": 1,
+                "name": "Err"
+              }
+            ]
+          }
+        },
+        "params": [
+          {
+            "name": "T",
+            "type": 4
+          },
+          {
+            "name": "E",
+            "type": 9
+          }
+        ],
+        "path": [
+          "Result"
+        ]
+      }
+    },
+    {
+      "id": 11,
+      "type": {
+        "def": {
+          "variant": {
+            "variants": [
+              {
+                "fields": [
+                  {
+                    "type": 6
+                  }
+                ],
+                "index": 0,
+                "name": "Ok"
+              },
+              {
+                "fields": [
+                  {
+                    "type": 9
+                  }
+                ],
+                "index": 1,
+                "name": "Err"
+              }
+            ]
+          }
+        },
+        "params": [
+          {
+            "name": "T",
+            "type": 6
+          },
+          {
+            "name": "E",
+            "type": 9
+          }
+        ],
+        "path": [
+          "Result"
+        ]
+      }
+    },
+    {
+      "id": 12,
+      "type": {
+        "def": {
+          "variant": {
+            "variants": [
+              {
+                "fields": [
+                  {
+                    "type": 3
+                  }
+                ],
+                "index": 0,
+                "name": "Ok"
+              },
+              {
+                "fields": [
+                  {
+                    "type": 9
+                  }
+                ],
+                "index": 1,
+                "name": "Err"
+              }
+            ]
+          }
+        },
+        "params": [
+          {
+            "name": "T",
+            "type": 3
+          },
+          {
+            "name": "E",
+            "type": 9
+          }
+        ],
+        "path": [
+          "Result"
+        ]
+      }
+    },
+    {
+      "id": 13,
+      "type": {
+        "def": {
+          "primitive": "u128"
+        }
+      }
+    },
+    {
+      "id": 14,
+      "type": {
+        "def": {
+          "composite": {
+            "fields": [
+              {
+                "type": 1,
+                "typeName": "[u8; 32]"
+              }
+            ]
+          }
+        },
+        "path": [
+          "ink_primitives",
+          "types",
+          "Hash"
+        ]
+      }
+    },
+    {
+      "id": 15,
+      "type": {
+        "def": {
+          "primitive": "u64"
+        }
+      }
+    },
+    {
+      "id": 16,
+      "type": {
+        "def": {
+          "variant": {}
+        },
+        "path": [
+          "ink_primitives",
+          "types",
+          "NoChainExtension"
+        ]
+      }
+    }
+  ],
+  "version": 5
+}
