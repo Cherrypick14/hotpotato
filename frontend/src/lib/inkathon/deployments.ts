@@ -1,25 +1,25 @@
 import { contracts } from "@polkadot-api/descriptors"
-import * as flipperPassethub from "contracts/deployments/flipper/passethub"
-import * as flipperPop from "contracts/deployments/flipper/pop"
-// import * as flipperDev from "contracts/deployments/flipper/dev"
+import * as hotpotatoPassethub from "contracts/deployments/hotpotato/passethub"
+import * as hotpotatoPop from "contracts/deployments/hotpotato/pop"
+// import * as hotpotatoDev from "contracts/deployments/hotpotato/dev"
 
-export const flipper = {
-  contract: contracts.flipper,
+export const hotpotato = {
+  contract: contracts.hotpotato,
   evmAddresses: {
-    // dev: flipperDev.evmAddress,
-    pop: flipperPop.evmAddress,
-    passethub: flipperPassethub.evmAddress,
+    // dev: hotpotatoDev.evmAddress,
+    pop: hotpotatoPop.evmAddress,
+    passethub: hotpotatoPassethub.evmAddress,
     // Add more deployments here
   },
   ss58Addresses: {
-    // dev: flipperDev.ss58Address,
-    pop: flipperPop.ss58Address,
-    passethub: flipperPassethub.ss58Address,
+    // dev: hotpotatoDev.ss58Address,
+    pop: hotpotatoPop.ss58Address,
+    passethub: hotpotatoPassethub.ss58Address,
     // Add more deployments here
   },
 }
 
 export const deployments = {
-  flipper,
+  hotpotato,
   // Add more contracts here
 }
