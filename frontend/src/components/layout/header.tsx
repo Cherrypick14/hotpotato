@@ -1,6 +1,7 @@
 import { cva } from "class-variance-authority"
 import { BookIcon, GithubIcon, MessagesSquareIcon } from "lucide-react"
 import { Logo } from "./logo"
+import { Navigation } from "@/components/game/navigation"
 import { Wrapper } from "./wrapper"
 
 const headerLinkVariants = cva([
@@ -12,6 +13,8 @@ export function Header() {
   return (
     <Wrapper className="flex flex-col items-center justify-center gap-4">
       <Logo />
+
+      <Navigation />
 
       <p className="max-w-lg text-center text-muted-foreground">
         Next generation full-stack boilerplate for ink! smart contracts running on PolkaVM. Powered
