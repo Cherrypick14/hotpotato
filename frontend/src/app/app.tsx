@@ -8,8 +8,8 @@ import { AccountBalance } from "@/components/web3/account-balance"
 import { AccountSelect } from "@/components/web3/account-select"
 import { ChainInfoCard } from "@/components/web3/chain-info-card"
 import { ChainSelect } from "@/components/web3/chain-select"
-import { ContractCard } from "@/components/web3/contract-card"
 import { MapAccountButton } from "@/components/web3/map-account-button"
+import { ContractCard } from "@/components/web3/contract-card"
 import type { ChainId, WalletAccount } from "@/lib/reactive-dot/custom-types"
 
 export function App() {
@@ -19,7 +19,7 @@ export function App() {
   return (
     <SignerProvider signer={account?.polkadotSigner}>
       <ChainProvider chainId={chainId}>
-        <Wrapper className="flex flex-col items-center gap-8">
+        <Wrapper className="flex flex-col items-center gap-8 w-full max-w-4xl">
           <div className="flex max-w-full flex-wrap items-center justify-center gap-4">
             {/* Chain Selector */}
             <Suspense fallback={<ButtonSkeleton />}>
